@@ -1,0 +1,12 @@
+.parallax-container {
+    height: 500px;
+  }
+
+.section {
+  padding: 50px;
+  text-align: center;
+}
+
+.btn {
+  background-color: salmon;
+}
