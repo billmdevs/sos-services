@@ -7151,6 +7151,13 @@ body.new-home .home-footer a {
     }
 }
 
+p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 2em;
+    text-align: center;
+}
+
 @media only screen and (min-width: 1025px) {
     body.new-home .xlarge-and-up {
         display: block
