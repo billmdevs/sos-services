@@ -6699,7 +6699,8 @@ body.new-home .button {
     width: 100%;
     text-align: center;
     display: inline-block;
-    margin-bottom: .875em
+    margin-bottom: .875em;
+    position: center;
 }
 
 body.new-home .button.primary {
@@ -6889,6 +6890,36 @@ body.new-home .how-it-works p {
     margin-bottom: 3em;
     line-height: 1.5em
 }
+
+
+
+
+body.new-home .contact-us {
+    padding-top: 3.5em
+}
+
+body.new-home .contact-us h2 {
+    margin-bottom: 1.5em
+}
+
+body.new-home .contact-us .step {
+    float: left
+}
+
+body.new-home .contact-us .step img {
+    margin-bottom: 1.5em
+}
+
+body.new-home .contact-us p {
+    margin-top: 1.5em;
+    margin-bottom: 3em;
+    line-height: 1.5em
+}
+
+
+
+
+
 
 body.new-home .our-services {
     max-width: 100% !important;
@@ -7104,19 +7135,19 @@ body.new-home .home-footer a {
         margin-top: 1.5em
     }
     body.new-home .our-services .cleaning-background-image {
-        background-image: url(/assets/home/services_cleaning-7d08ed0579353370dadadec0cf017478.jpeg)
+        background-image: url(images/home/services_cleaning-7d08ed0579353370dadadec0cf017478.jpeg)
     }
     body.new-home .our-services .assembly-background-image {
-        background-image: url(/assets/home/services_assembly-49c9933b4f49af7cabffc2bc8473cc9f.jpeg)
+        background-image: url(images/home/services_airconditioning-49c9933b4f49af7cabffc2bc8473cc9f.jpeg)
     }
     body.new-home .our-services .tv-background-image {
-        background-image: url(/assets/home/services_tv_mounting-beabcf3d0b1bc4ecf86e9d96efa2e385.jpeg)
+        background-image: url(images/home/services_electric_mounting-beabcf3d0b1bc4ecf86e9d96efa2e385.jpeg)
     }
     body.new-home .our-services .painting-background-image {
-        background-image: url(/assets/home/services_painting-80b63139d2e206c36d932025ed613b7a.jpeg)
+        background-image: url(images/home/services_plumbing-80b63139d2e206c36d932025ed613b7a.jpeg)
     }
     body.new-home .our-services .pictures-background-image {
-        background-image: url(/assets/home/services_pictures-3bbd441f5b1a991c86d1243c363df887.jpeg)
+        background-image: url(images/home/services_airconditioning-49c9933b4f49af7cabffc2bc8473cc9f.jpeg)
     }
 }
 
@@ -7139,7 +7170,7 @@ body.new-home .home-footer a {
         margin-right: auto
     }
     body.new-home .home-hero .primary {
-        margin-right: .75em
+        margin-right: -7.9em
     }
     body.new-home .home-hero .secondary {
         margin-left: .75em
@@ -7176,6 +7207,26 @@ body.new-home .home-footer a {
         padding: 0 1em;
         background-color: #fff
     }
+
+
+    body.new-home .contact-us {
+        padding-top: 5.75em;
+        padding-bottom: 3.875em
+    }
+    body.new-home .contact-us h2 {
+        margin-bottom: 2.125em
+    }
+    body.new-home .contact-us p {
+        font-size: 1.125em;
+        line-height: 1.25em
+    }
+    body.new-home .contact-us img {
+        padding: 0 1em;
+        background-color: #fff
+    }
+
+
+
     body.new-home .match-top-pros {
         padding-top: 10em
     }
@@ -7261,6 +7312,16 @@ body.new-home .home-footer a {
 
 @media only screen and (min-width: 1280px) {
     body.new-home .how-it-works {
+        padding-top: 5.75em;
+        padding-bottom: 3.875em;
+        background-repeat: no-repeat;
+        background-position: 50% 55%;
+        background-image: url(images/bee_line-0c389761d3761ba410b08f6db19d9687.svg)
+    }
+
+
+
+    body.new-home .contact-us {
         padding-top: 5.75em;
         padding-bottom: 3.875em;
         background-repeat: no-repeat;
